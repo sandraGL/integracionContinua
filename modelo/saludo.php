@@ -22,7 +22,7 @@ class saludo {
         
     }
     
-    public function formatSaludo(){
-        return "";
+    public function formatSaludo($saludo){
+        return "El saludo es " . $saludo;
     }
 }

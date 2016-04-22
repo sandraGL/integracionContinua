@@ -1,6 +1,8 @@
 <?php
-require "vendor/autoload.php";
+
 namespace integracionCOntinua\modelo\saludo;
+
+require "vendor/autoload.php";
 use integracionCOntinua\modelo\saludo;
 
 /**
@@ -33,10 +35,7 @@ class saludoTest extends \PHPUnit_Framework_TestCase {
      * 
      */
     public function testSetSaludo() {
-        // Remove the following lines when you implement this test.
-        $this->markTestIncomplete(
-                'This test has not been implemented yet.'
-        );
+        
     }
 
     /**
@@ -51,7 +50,7 @@ class saludoTest extends \PHPUnit_Framework_TestCase {
     public function proveedorFormatSaludo(){
         return [
           "Saludo 1" => ["Hola", "EL mensaje es: hola"],
-          "Saludo 2" => ["Hola", "EL mensaje es: hola"],
+          "Saludo 2" => ["Hola", "EL mensaje es: adios"],
         ];
     }
 
