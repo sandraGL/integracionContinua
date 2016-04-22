@@ -10,8 +10,7 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+        <input type="text" id="saludo"/>
+        <input type="submit" id="enviar"/>
     </body>
 </html>
